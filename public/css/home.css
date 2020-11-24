@@ -1,0 +1,227 @@
+.sidenav {
+display: none;
+height: 100%;
+width: 250px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    section {
+      padding-top: 110px ;
+    }
+  }
+  @media (max-width: 768px) {
+    section {
+      padding-top: 100px ;
+    }
+  }
+  .sectionhome {
+    text-align: center;
+    color: white;
+    background-image: url("../storage/images/home.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+  
+  }
+
+  .titletext{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .desctext{
+    margin-top:25px ;
+    font-size: 15px;
+    font-weight: 100;
+  }
+
+ 
+.shadowbox{
+  box-shadow: rgba(3, 141, 15, 0.486) 1px 1px 15px;
+}
+.shadowbox2{
+  box-shadow: rgb(255, 123, 0) 1px 1px 15px;
+}
+.shadowbox3{
+  box-shadow: rgb(255, 0, 0) 1px 1px 15px;
+}
+.cards{
+  background-color: rgba(2, 71, 2, 0.65);
+  width: 150px;
+  border: green solid;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.cards2{
+  background-color: #fd7d14a9;
+  width: 150px;
+  border: rgb(255, 123, 0) solid;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.cards3{
+  background-color: rgba(189, 5, 5, 0.602);
+  width: 150px;
+  border: rgb(255, 0, 0) solid;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.divimage{
+  
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #BEBEBE;
+  margin-right: 10px;
+  position: relative;
+  -webkit-transform: translateY(25%);
+  -ms-transform: translateY(25%);
+  transform: translateY(25%);
+}
+.userinfo{
+  float: left;
+    font-size: 0;
+    width: 340px;
+    white-space: nowrap;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.onoffswitch3
+{
+    position: relative; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+
+.onoffswitch3-checkbox {
+    display: none;
+}
+
+.onoffswitch3-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 0px solid #999999; border-radius: 0px;
+}
+
+.onoffswitch3-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch3-inner > span {
+    display: block; float: left; position: relative; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: 'Montserrat', sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.onoffswitch3-inner .onoffswitch3-active {
+    padding-left: 10px;
+    background-color: #EEEEEE; color: #FFFFFF;
+}
+
+.onoffswitch3-inner .onoffswitch3-inactive {
+    width: 100px;
+    padding-left: 16px;
+    background-color: #EEEEEE; color: #FFFFFF;
+    text-align: right;
+}
+
+.onoffswitch3-switch {
+    display: block; width: 50%; margin: 0px; text-align: center; 
+    border: 0px solid #999999;border-radius: 0px; 
+    position: absolute; top: 0; bottom: 0;
+}
+.onoffswitch3-active .onoffswitch3-switch {
+    background: #27A1CA; left: 0;
+    width: 160px;
+}
+.onoffswitch3-inactive{
+    background: #A1A1A1; right: 0;
+    width: 20px;
+}
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-inner {
+    margin-left: 0;
+}
+
+.glyphicon-remove{
+    padding: 3px 0px 0px 0px;
+    color: #fff;
+    background-color: #000;
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+}
+
+.scroll-text{
+    color: #000;
+}
+
+.dashbackground{
+  background-color: #121129;
+}
+.back{
+  background-image: url('../storage/images/profilebackground.svg');
+}
+
+.notification {
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  position: relative;
+  display: inline-block;
+  background-color: unset;
+  border: unset;
+}
+
+
+.notification .badge {
+  position: absolute;
+  top: 5px;
+  right: 2px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
